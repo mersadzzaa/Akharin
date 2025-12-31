@@ -1,12 +1,12 @@
 /* استایل‌های کلی و فونت */
-@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap');
 
 body {
   margin: 0;
   background-color: #0f172a;
   overflow: hidden; /* جلوگیری از اسکرول اضافه در موبایل */
   touch-action: none;
-  font-family: "Vazirmatn", sans-serif;
+  font-family: 'Vazirmatn', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -17,8 +17,7 @@ body {
 
 /* پترن پشت کارت‌ها */
 .card-pattern {
-  background-image: radial-gradient(#ffffff 15%, transparent 16%),
-    radial-gradient(#ffffff 15%, transparent 16%);
+  background-image: radial-gradient(#ffffff 15%, transparent 16%), radial-gradient(#ffffff 15%, transparent 16%);
   background-size: 10px 10px;
   background-position: 0 0, 5px 5px;
 }
@@ -28,10 +27,10 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0,0,0,0.1);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255,255,255,0.2);
   border-radius: 3px;
 }
 
@@ -40,6 +39,6 @@ body {
   display: none;
 }
 .no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
